@@ -1,0 +1,32 @@
+header {
+  padding: 0 200px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+section {
+  padding: 0 200px;
+  margin-bottom: 200px;
+}
+
+.section_1,
+.section_2,
+.section_3,
+.section_5 {
+  padding: 0;
+}
+
+.title_wrap {
+  text-align: center;
+}
+
+.title_wrap h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.title_wrap p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #afafaf;
+}

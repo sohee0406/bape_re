@@ -5,10 +5,386 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- 이 위에 npm 아이콘 넣기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- 이 위에 스와이퍼 넣기 -->
+    <div class="wrap">
+      <header>
+        <div class="menu_wrap">
+          <div class="logo">
+            <a href="#"><img src="img/LOGO.png" alt="logo" /></a>
+          </div>
+
+          <ul class="menu_wrap_1">
+            <li><a href="#">NEW ARRIVES</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">COLLABORATION</a></li>
+            <li><a href="#">ABOUT</a></li>
+          </ul>
+
+          <div class="icon_wrap">
+            <a href="#"><img src="#" alt="" />0</a>
+            <a href="#"><img src="#" alt="" />0</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="section_1">
+        <div class="left_img swiper mainSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/main.img.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="img/main2.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="img/main3.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1>DEFINE YOUR STREET</h1>
+
+          <p>
+            Inspired by street culture and bold individuality,<br />
+            discover the latest collections that redefine<br />
+            everyday fashion.
+          </p>
+
+          <a href="#"
+            >VIEW MORE →
+            <div class="line1"></div>
+          </a>
+        </div>
+      </section>
+
+      <!-- section_1-------------------------------------- -->
+
+      <section class="section_2">
+        <div class="title_wrap">
+          <h2>BEST</h2>
+          <p>베이프의 베스트 상품을 만나보세요</p>
+        </div>
+
+        <div class="swiper bestSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="con">
+                <div class="img">
+                  <img src="img/se1_1.png" alt="" />
+                </div>
+                <div class="text_wrap">
+                  <h3>BAPE X HELLO KITTY T-SHIRT(KIDS) WHITE</h3>
+                  <p>₩95,000</p>
+                </div>
+                <div class="badge">BEST</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="con">
+                <div class="img">
+                  <img src="img/kitti_b.png" alt="" />
+                </div>
+                <div class="text_wrap">
+                  <h3>BAPE X HELLO KITTY T-SHIRT(KIDS) WHITE</h3>
+                  <p>₩95,000</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="con">
+                <div class="img">
+                  <img src="img/curomi_white.png" alt="" />
+                </div>
+                <div class="text_wrap">
+                  <h3>BAPE X HELLO KITTY T-SHIRT(KIDS) WHITE</h3>
+                  <p>₩95,000</p>
+                </div>
+                <div class="badge">BEST</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="con">
+                <div class="img">
+                  <img src="img/curomi_black.png" alt="" />
+                </div>
+                <div class="text_wrap">
+                  <h3>BAPE X HELLO KITTY T-SHIRT(KIDS) WHITE</h3>
+                  <p>₩95,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ---------------------------secton_2 -->
+      <section class="section_3">
+        <div class="left_wrap">
+          <div class="title_wrap">
+            <h2>NEW ARRIVES</h2>
+            <p>새롭게 출시된 베이프 컬렉션을 만나보세요.</p>
+          </div>
+          <!-- 왼쪽 슬라이드 -->
+          <div class="new_left">
+            <div class="swiper newSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product_img">
+                      <img src="img/image 4.png" alt="" />
+                    </div>
+
+                    <h3>SANRIO HOODIE ZIP UP</h3>
+
+                    <p>₩249,000</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product_img">
+                      <img src="img/new2.jpg" alt="" />
+                    </div>
+
+                    <h3>BAPE CAMO TEE</h3>
+
+                    <p>₩139,000</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product_img">
+                      <img src="img/new3.jpg" alt="" />
+                    </div>
+
+                    <h3>ABC CAMO SHIRT</h3>
+
+                    <p>₩189,000</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination new-pagination"></div>
+            </div>
+          </div>
+
+          <!-- 오른쪽 고정 배너 -->
+
+          <div class="right_wrap">
+            <img src="img/image 3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------section_3 -->
+
+      <section class="section_4">
+        <div class="title_wrap">
+          <h2>COLLECTION</h2>
+
+          <p>베이프의 다양한 컬렉션을 만나보세요.</p>
+        </div>
+
+        <div class="collection_left">
+          <!-- 왼쪽 큰 이미지 -->
+
+          <div class="collection_left">
+            <div class="collection_big">
+              <img src="img/collection_big.jpg" alt="" />
+
+              <div class="collection_text">
+                <h3>STREET ESSENTIALS</h3>
+
+                <p>
+                  도시의 에너지와 자유로운 감성을 담아 일상에서도 돋보이는
+                  스타일을 완성합니다.
+                </p>
+                <a href="#">VIEW MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 오른쪽 -->
+
+          <div class="collection_right">
+            <div class="collection_con">
+              <img src="img/Rectangle 17.png" alt="" />
+
+              <h3>URBAN CASUAL</h3>
+              <p>
+                편안한 실루엣과 감각적인 디테일로 일상 속 스트리트 무드를
+                완성합니다.
+              </p>
+              <a href="#">VIEW PRODUCT →</a>
+            </div>
+
+            <div class="collection_con">
+              <img src="img/Rectangle 17.png" alt="" />
+
+              <h3>URBAN CASUAL</h3>
+              <p>
+                편안한 실루엣과 감각적인 디테일로 일상 속 스트리트 무드를
+                완성합니다.
+              </p>
+              <a href="#">VIEW PRODUCT →</a>
+            </div>
+
+            <div class="collection_con">
+              <img src="img/Rectangle 17.png" alt="" />
+
+              <h3>URBAN CASUAL</h3>
+              <p>
+                편안한 실루엣과 감각적인 디테일로 일상 속 스트리트 무드를
+                완성합니다.
+              </p>
+              <a href="#">VIEW PRODUCT →</a>
+            </div>
+
+            <div class="collection_con">
+              <img src="img/Rectangle 17.png" alt="" />
+
+              <h3>URBAN CASUAL</h3>
+              <p>
+                편안한 실루엣과 감각적인 디테일로 일상 속 스트리트 무드를
+                완성합니다.
+              </p>
+              <a href="#">VIEW PRODUCT →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section_4------------------------------------ -->
+
+      <section class="section_5">
+        <div class="banner_wrap">
+          <div class="banner_text">
+            <h2>THE STREET IS OUR RUNWAY</h2>
+
+            <p>Every corner. Every step. Every statement.</p>
+
+            <a href="#">VIEW MORE</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------section_5 -->
+
+      <section class="section_6">
+        <div class="title_wrap">
+          <h2>COLLABORATION</h2>
+
+          <p>다양한 브랜드와 함께한 협업 컬렉션을 만나보세요.</p>
+        </div>
+
+        <div class="con_wrap">
+          <div class="con_6">
+            <img src="img/collabo_1.jpg" alt="" />
+
+            <div class="hover_box">
+              <h3>BAPE ADIDAS</h3>
+
+              <p>Street meets sportswear.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------section_6 -->
+
+      <section class="section_7">
+        <h2>SHOP</h2>
+
+        <div class="shop_wrap">
+          <div class="shop_card">
+            <img src="images/men.jpg" alt="men" />
+
+            <div class="hover_box_man">
+              <div class="shop_text">
+                <h3>MEN</h3>
+                <p>
+                  베이프 고유의 스트릿 무드<br />
+                  남성복을 확인해보세요
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="shop_card">
+            <img src="images/men.jpg" alt="men" />
+
+            <div class="hover_box_man">
+              <div class="shop_text">
+                <h3>MEN</h3>
+                <p>
+                  베이프 고유의 스트릿 무드<br />
+                  남성복을 확인해보세요
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="shop_card">
+            <img src="images/men.jpg" alt="men" />
+
+            <div class="hover_box_man">
+              <div class="shop_text">
+                <h3>MEN</h3>
+                <p>
+                  베이프 고유의 스트릿 무드<br />
+                  남성복을 확인해보세요
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="shop_card">
+            <img src="images/women.jpg" alt="women" />
+
+            <div class="overlay">
+              <div class="shop_text">
+                <h3>WOMEN</h3>
+                <p>
+                  트렌디한 스타일과<br />
+                  베이프만의 감성을 만나보세요
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="shop_card">
+            <img src="images/kids.jpg" alt="kids" />
+
+            <div class="overlay">
+              <div class="shop_text">
+                <h3>KIDS</h3>
+                <p>
+                  아이들을 위한<br />
+                  베이프 컬렉션
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
