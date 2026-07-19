@@ -1,11 +1,15 @@
+.wrap {
+  width: 100%;
+}
+
 header {
-  padding: 0 200px;
+  padding: 0 190px;
   font-size: 16px;
   font-weight: 500;
 }
 
 section {
-  padding: 0 200px;
+  padding: 0 192px;
   margin-bottom: 200px;
 }
 
@@ -29,4 +33,24 @@ section {
   font-size: 20px;
   font-weight: 400;
   color: #afafaf;
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 120px 50px 0;
+  }
+
+  header {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 80px 20px 0;
+  }
+
+  header {
+    padding: 0 16px;
+  }
 }
