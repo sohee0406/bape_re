@@ -103,14 +103,6 @@
   color: white;
 }
 
-.line1 {
-  width: 0;
-  height: 2px;
-  background-color: white;
-  margin-top: 10px;
-  transition: 0.4s;
-}
-
 .title a:hover .line1 {
   width: 145px;
 }
@@ -401,6 +393,34 @@
 
 .collection_text {
   position: absolute;
+  color: white;
+  text-align: center;
+  top: 35%;
+  left: 18%;
+}
+
+.collection_text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.collection_text p {
+  font-size: 26px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 115px;
+}
+
+.collection_text a {
+  font-size: 18px;
+  font-weight: 500;
+  width: 170px;
+  color: white;
+}
+
+.collection_text a:hover .line1 {
+  width: 170px;
 }
 
 .collection_right {
@@ -430,4 +450,10 @@
   color: #6d8c3c;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* ------------------------section4------------------------- */
+
+.section_5 img {
+  width: 100%;
 }

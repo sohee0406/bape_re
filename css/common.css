@@ -35,6 +35,33 @@ section {
   color: #afafaf;
 }
 
+/* ---------------------------- */
+/* <a href="#" class="more_btn view">
+            VIEW MORE 
+            <div class="more_line"></div>
+          </a> */
+
+.more_btn {
+  display: inline-block;
+}
+
+.more_line {
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+.view:hover .more_line {
+  width: 145px;
+}
+
+.discover:hover .more_line {
+  width: 170px;
+}
+
+/* ----------------------------- */
 @media (max-width: 1024px) {
   section {
     padding: 120px 50px 0;
