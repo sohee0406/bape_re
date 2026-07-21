@@ -57,3 +57,49 @@ const newSwiper = new Swiper(".newSwiper", {
     clickable: true,
   },
 });
+
+const mobileSwiper = new Swiper(".mobileSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 20,
+
+  loop: true,
+
+  speed: 3000,
+
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: false,
+  },
+
+  allowTouchMove: false,
+});
+
+const collaboRight = new Swiper(".collaboRight", {
+  slidesPerView: "1.5",
+  spaceBetween: 5,
+
+  loop: true,
+
+  speed: 4000,
+
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+});
+
+const collaboLeft = new Swiper(".collaboLeft", {
+  slidesPerView: "auto",
+  spaceBetween: 5,
+
+  loop: true,
+
+  speed: 3000,
+
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
+});
