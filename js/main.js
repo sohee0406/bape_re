@@ -15,6 +15,13 @@ const swiper = new Swiper(".bestSwiper", {
   spaceBetween: 20,
   loop: true,
 
+  speed: 1000,
+
+  autoplay: {
+    delay: 3000, //
+    disableOnInteraction: false,
+  },
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -27,9 +34,11 @@ const swiper = new Swiper(".bestSwiper", {
     },
     768: {
       slidesPerView: 2,
+      slidesPerGroup: 2,
     },
     1024: {
       slidesPerView: 4,
+      slidesPerGroup: 4,
     },
   },
 });
@@ -44,7 +53,7 @@ const newSwiper = new Swiper(".newSwiper", {
   },
 
   pagination: {
-    el: ".new-pagination",
+    el: ".swiper-pagination",
     clickable: true,
   },
 });
