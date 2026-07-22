@@ -5,7 +5,6 @@ const mainSwiper = new Swiper(".mainSwiper", {
 
   autoplay: {
     delay: 3000,
-    disableOnInteraction: false,
   },
 
   speed: 1000,
@@ -18,8 +17,7 @@ const swiper = new Swiper(".bestSwiper", {
   speed: 1000,
 
   autoplay: {
-    delay: 3000, //
-    disableOnInteraction: false,
+    delay: 3000,
   },
 
   pagination: {
@@ -59,47 +57,38 @@ const newSwiper = new Swiper(".newSwiper", {
 });
 
 const mobileSwiper = new Swiper(".mobileSwiper", {
-  slidesPerView: "auto",
-  spaceBetween: 20,
+  slidesPerView: 2.3,
 
+  spaceBetween: 5,
   loop: true,
-
   speed: 3000,
 
   autoplay: {
     delay: 0,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: false,
   },
-
-  allowTouchMove: false,
 });
 
 const collaboRight = new Swiper(".collaboRight", {
-  slidesPerView: "1.5",
+  slidesPerView: "auto",
+
   spaceBetween: 5,
-
   loop: true,
-
-  speed: 4000,
+  speed: 3000,
 
   autoplay: {
     delay: 0,
-    disableOnInteraction: false,
   },
 });
 
 const collaboLeft = new Swiper(".collaboLeft", {
   slidesPerView: "auto",
+
   spaceBetween: 5,
-
   loop: true,
-
   speed: 3000,
 
   autoplay: {
     delay: 0,
-    disableOnInteraction: false,
     reverseDirection: true,
   },
 });
