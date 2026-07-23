@@ -149,11 +149,11 @@
 
 @media (max-width: 768px) {
   .title h1 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .title p {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .title a {
