@@ -772,6 +772,10 @@
     left: 30px;
   }
 
+  .banner_wrap img {
+    height: 200px;
+  }
+
   .banner_text h2 {
     font-size: 26px;
     line-height: 1.3;
