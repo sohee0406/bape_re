@@ -1139,8 +1139,7 @@ footer {
   }
 
   .footer_wrap {
-    display: flex;
-    align-items: center;
+    gap: 20px;
   }
 
   .left_foot {
@@ -1149,7 +1148,6 @@ footer {
 
   .left_foot img {
     width: 45px;
-    height: auto;
   }
 
   .footer_text {
@@ -1157,10 +1155,8 @@ footer {
   }
 
   .right_foot {
-    width: auto;
     display: flex;
     gap: 25px;
-    justify-content: flex-end;
   }
 
   .menu h4 {
