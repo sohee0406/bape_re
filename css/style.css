@@ -1106,6 +1106,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   footer {
+    width: 100%;
     padding: 50px 60px;
   }
 
@@ -1143,7 +1144,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
-    padding: 25px 25px;
+    padding: 25px 0px;
   }
 
   .footer_wrap {
