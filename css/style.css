@@ -238,9 +238,18 @@
     display: block;
   }
 
+  .best_wrap .con:hover .text_wrap h3 {
+    color: #d4af37;
+    transition: 0.2s;
+  }
+
   .mobile_btn {
     display: flex;
     justify-content: center;
+  }
+
+  .mobile_btn:hover.mobile_btn a {
+    color: #d4af37;
   }
 
   .mobile_btn a {
